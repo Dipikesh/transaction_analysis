@@ -1,0 +1,19 @@
+# Python
+venv
+
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+media
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+
+.pytest_cache/
+
+
+
