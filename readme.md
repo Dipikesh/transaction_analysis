@@ -36,7 +36,7 @@ This will start:
 - Added result.csv file to the root level . Use it for testing
 
 ### 1. Upload Transaction File
-- **URL:** `/api/upload/`
+- **URL:** `localhost:8000/api/uploads/`
 - **Method:** `POST`
 - **Content-Type:** `multipart/form-data`
 - **Request Body:**
@@ -53,7 +53,7 @@ This will start:
 
 
 ### 2. Check Analysis Status
-- **URL:** `/api/uploads/<upload_id>/`
+- **URL:** `localhost:8000/api/uploads/<upload_id>/`
 - **Method:** `GET`
 - **Response:**
 
@@ -75,7 +75,7 @@ This will start:
 }
 ```
 ### 3. Check All Uploads Analysis Status
-- **URL:** `/api/uploads/`
+- **URL:** `localhost:8000/api/uploads/`
 - **Method:** `GET`
 - **Response:**
 
