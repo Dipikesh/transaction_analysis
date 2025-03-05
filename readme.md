@@ -33,6 +33,8 @@ This will start:
 
 ## API Endpoints
 
+- Added result.csv file to the root level . Use it for testing
+
 ### 1. Upload Transaction File
 - **URL:** `/api/upload/`
 - **Method:** `POST`
